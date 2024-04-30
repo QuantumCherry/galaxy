@@ -58,6 +58,11 @@ body {
 
 #cherry-logo {
   width: 1.25rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+#cherry-logo:hover {
+  transform: scale(1.05);
 }
 
 nav {
