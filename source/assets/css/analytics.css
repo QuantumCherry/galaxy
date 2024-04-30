@@ -11,21 +11,17 @@ h2, h3, h4 {
   color: #333;
 }
 
-.introduction p, .areas-of-activity p, .solutions p {
+section p {
   margin-bottom: 1.5em;
 }
 
-.areas-of-activity ul {
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-.areas-of-activity li {
+li {
   margin-bottom: 1.5em;
-}
-
-.areas-of-activity h4 {
-  margin-bottom: 0.5em;
 }
 
 .centered {
@@ -45,7 +41,7 @@ hr {
 }
 
 .list-bar {
-  max-width: 30rem;
+  max-width: 34rem;
 }
 
 .bar {
@@ -75,4 +71,20 @@ hr {
   margin: 0 auto;
   text-align: justify;
   text-align-last: right;
+}
+
+.right-bar {
+  position: relative;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.right-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #000;
 }
