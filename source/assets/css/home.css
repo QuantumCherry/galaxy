@@ -1,0 +1,21 @@
+main {
+  padding: 5rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h2, h3, h4 {
+  color: #333;
+}
+
+.centered {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.centered h2 {
+  text-align: center;
+}
