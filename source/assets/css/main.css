@@ -53,6 +53,7 @@ body {
   flex-direction: row;
   background-color: #0B0E13;
   padding: 1.25rem 5rem;
+  z-index: 1;
 }
 
 #cherry-logo {
